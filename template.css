@@ -1,0 +1,118 @@
+#hi
+{
+	position:absolute;
+	top:280px;
+	left:120px;
+	animation-name:gun;
+	animation-duration:0.2s;
+	animation-timing-function:linear;
+	transform-origin:bottom  left;
+	animation-delay:0s;
+	
+	
+}
+#ok
+{
+	position:absolute;
+	top:295px;
+	left:285px;
+	z-index:-1;
+	animation-name:bullet;
+	animation-duration:0.6s;
+	animation-timing-function:linear;
+	
+	
+	
+}
+
+@keyframes  gun
+{
+	from
+	{
+		transform:rotate(0deg);
+	}
+	to
+	{
+		transform:rotate(-60deg);
+	}
+}
+@keyframes  bullet
+{
+	0%
+	{
+		left:285px;
+		
+	}
+	10%
+	{
+		left:355px;
+		
+	}
+	20%
+	{
+		left:425px;
+		
+	}
+	30%
+	{
+		left:495px;
+		
+	}
+	40%
+	{
+		left:565px;
+		
+	}
+	50%
+	{
+		left:635px;
+		
+	}
+	60%
+	{
+		left:705px;
+		
+	}
+	70%
+	{
+		left:775px;
+		
+	}
+	80%
+	{
+		left:845px;
+		
+	}
+	90%
+	{
+		left:950px;
+		
+	}
+	
+	100%
+	{
+		left:1100px;
+		
+	}
+}
+
+#tatti 
+
+{
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	top: 200px;
+	padding: 10px;
+  }
+
+  #maar 
+
+{
+	position: absolute;
+	right: 560px;
+	/* left: 100px; */
+	width: 90px;
+	top: 400px;
+	padding: 10px;
+  }
