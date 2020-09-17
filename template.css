@@ -116,3 +116,14 @@
 	top: 400px;
 	padding: 10px;
   }
+
+  #aag
+
+{
+	position: absolute;
+	right: 0px;
+	opacity: 0.5;
+	width: 300px;
+	top: 200px;
+	padding: 10px;
+  }
